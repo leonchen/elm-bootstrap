@@ -2,9 +2,6 @@ module Main exposing (..)
 
 import Html exposing (Html, div, button, text)
 import Html.Events exposing (onClick)
-import Json.Encode exposing (encode, object)
-import Json.Decode exposing (decodeString, Decoder, string, int, list, nullable)
-import Json.Decode.Pipeline exposing (decode, required, optional)
 import Games
 import Ports exposing (..)
 
